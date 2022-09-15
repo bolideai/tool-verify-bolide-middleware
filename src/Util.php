@@ -1,6 +1,6 @@
 <?php
 
-namespace Bolideai\VerifyMicroservice;
+namespace Bolideai\VerifyBolide;
 
 /**
  * Utilities and helpers used in various parts of the package.

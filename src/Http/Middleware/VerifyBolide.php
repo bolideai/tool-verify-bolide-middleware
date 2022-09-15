@@ -2,7 +2,7 @@
 
 namespace Bolideai\VerifyBolide\Http\Middleware;
 
-use Bolideai\VerifyMicroservice\Util;
+use Bolideai\VerifyBolide\Util;
 use Illuminate\Http\Request;
 use Closure;
 use Illuminate\Support\Facades\Hash;
