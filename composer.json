@@ -1,0 +1,27 @@
+{
+    "name": "bolideai/verify-bolide",
+    "description": "verification between microservices for admin panel",
+    "type": "library",
+    "require": {
+        "php": "^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bolideai\\VerifyBolide\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Y. Mamaev",
+            "email": "yuriy.mamaev@searchanise.io"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bolideai\\VerifyBolide\\BolideAuthServiceProvider"
+            ]
+        }
+    }
+}
