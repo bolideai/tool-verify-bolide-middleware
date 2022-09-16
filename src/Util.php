@@ -14,6 +14,6 @@ class Util
      */
     public static function combinedKey(): string
     {
-        return config('microservices.auth_key') . config('shopify-app.api_key');
+        return config('microservice.main_app_key') . config('microservice.shopify_app_key');
     }
 }

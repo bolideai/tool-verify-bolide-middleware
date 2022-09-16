@@ -9,7 +9,20 @@ class BolideAuthServiceProvider extends ServiceProvider
 {
     public function boot()
     {
+        $this->bootConfig();
         $this->bootMiddlewares();
+    }
+
+    /**
+     * Boot the config for the package.
+     *
+     * @return void
+     */
+    private function bootConfig(): void
+    {
+        $this->publishes([
+            __DIR__ . '/../config/microservice.php' => config_path('microservice.php'),
+        ]);
     }
 
     /**
