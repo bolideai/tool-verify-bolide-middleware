@@ -1,1 +1,1 @@
-Middleware авторизации микросервисов между собой
+Middleware for Bolide cross-microservices authorization
